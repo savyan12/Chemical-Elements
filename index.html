@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Periodic Table of the Elments</title>
+    <link rel="stylesheet" href="./bootstrap-5/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body>
+
+
+      <div class="container mt-5">
+        <table class="fs-5 TableA width">
+        <tr>
+          <td class="NoBorder" colspan="4"></td>
+          <td onclick="Open(id)" id="Hydrogen" class="hy" ><span class="El">1</span><br>H</td>
+          <td class="NoBorder" colspan="12"></td>
+          <td onclick="Open(id)" id="Helum" class="viii"><span class="El">2</span><br>He</td>
+        </tr>
+
+        <td class="i"><span class="El">3</span><br>Li</td>
+        <td class="ii"><span class="El">4</span><br>Br</td>
+        <td class="NoBorder" colspan="10"></td>
+        <td class="Semi-metal"><span class="El">5</span><br>Be</td>
+        <td class="no-metal"><span class="El">6</span><br>C</td>
+        <td class="no-metal"><span class="El">7</span><br>N</td>
+        <td class="no-metal"><span class="El">8</span><br>O</td>
+        <td class="vii"><span class="El">9</span><br>F</td>
+        <td class="viii"><span class="El">10</span><br>Ne</td>
+        </tr>
+        <tr>
+        <td class="i"><span class="El">11</span><br>Na</td>
+        <td class="ii"><span class="El">12</span><br>Mg</td>
+        <td class="NoBorder" colspan="10"></td>
+        <td class="iii"><span class="El">13</span><br>Al</td>
+        <td class="Semi-metal"><span class="El">14</span><br>Si</td>
+        <td class="no-metal"><span class="El">15</span><br>P</td>
+        <td class="no-metal"><span class="El">16</span><br>S</td>
+        <td class="vii"><span class="El">17</span><br>Cl</td>
+        <td class="viii"><span class="El">18</span><br>Ar</td>
+        </tr>
+        <tr>
+          <td class="i"><span class="El">19</span><br>K</td>
+          <td class="ii"><span class="El">20</span><br>Ca</td>
+          <td class="trans"><span class="El">21</span><br>Sc</td>
+          <td class="trans"><span class="El">22</span><br>Ti</td>
+          <td class="trans"><span class="El">23</span><br>V</td>
+          <td class="trans"><span class="El">24</span><br>Cr</td>
+          <td class="trans"><span class="El">25</span><br>Mn</td>
+          <td class="trans"><span class="El">26</span><br>Fe</td>
+          <td class="trans"><span class="El">27</span><br>Co</td>
+          <td class="trans"><span class="El">28</span><br>Ni</td>
+          <td class="trans"><span class="El">29</span><br>Cu</td>
+          <td class="trans"><span class="El">30</span><br>Zn</td>
+          <td class="iii"><span class="El">31</span><br>Ga</td>
+          <td class="Semi-metal"><span class="El">32</span><br>Ge</td>
+          <td class="Semi-metal"><span class="El">33</span><br>As</td>
+          <td class="no-metal"><span class="El">34</span><br>Se</td>
+          <td class="vii"><span class="El">35</span><br>Br</td>
+          <td class="viii"><span class="El">36</span><br>Ke</td>
+          </tr>
+          <tr>
+            <td class="i"><span class="El">37</span><br>Rb</td>
+            <td class="ii"><span class="El">38</span><br>Sr</td>
+            <td class="trans"><span class="El">39</span><br>Y</td>
+            <td class="trans"><span class="El">40</span><br>Zr</td>
+            <td class="trans"><span class="El">41</span><br>Nb</td>
+            <td class="trans"><span class="El">42</span><br>Mo</td>
+            <td class="trans"><span class="El">43</span><br>Tc</td>
+            <td class="trans"><span class="El">44</span><br>Ru</td>
+            <td class="trans"><span class="El">45</span><br>Rh</td>
+            <td class="trans"><span class="El">46</span><br>Pd</td>
+            <td class="trans"><span class="El">47</span><br>Ag</td>
+            <td class="trans"><span class="El">48</span><br>Cd</td>
+            <td class="iii"><span class="El">49</span><br>In</td>
+            <td class="iii"><span class="El">50</span><br>Sn</td>
+            <td class="Semi-metal"><span class="El">51</span><br>Sb</td>
+            <td class="Semi-metal"><span class="El">52</span><br>Te</td>
+            <td class="vii"><span class="El">53</span><br>I</td>
+            <td class="viii"><span class="El">54</span><br>Xe</td>
+            </tr>
+            <tr>
+              <td class="i"><span class="El">55</span><br>Cs</td>
+              <td class="ii"><span class="El">56</span><br>Ba</td>
+              <td class="trans"><span class="El">57</span><br>La</td>
+              <td class="trans"><span class="El">72</span><br>Hf</td>
+              <td class="trans"><span class="El">73</span><br>Ta</td>
+              <td class="trans"><span class="El">74</span><br>W</td>
+              <td class="trans"><span class="El">75</span><br>Re</td>
+              <td class="trans"><span class="El">76</span><br>Os</td>
+              <td class="trans"><span class="El">77</span><br>Ir</td>
+              <td class="trans"><span class="El">78</span><br>Pt</td>
+              <td class="trans"><span class="El">79</span><br>Au</td>
+              <td class="trans"><span class="El">80</span><br>Hg</td>
+              <td class="iii"><span class="El">81</span><br>Ti</td>
+              <td class="iii"><span class="El">82</span><br>Pb</td>
+              <td class="iii"><span class="El">83</span><br>Bi</td>
+              <td class="Semi-metal"><span class="El">84</span><br>Po</td>
+              <td class="vii"><span class="El">85</span><br>At</td>
+              <td class="viii"><span class="El">86</span><br>Ru</td>
+              </tr>
+              <tr>
+                <td class="i"><span class="El">87</span><br>Fr</td>
+                <td class="ii"><span class="El">88</span><br>Ra</td>
+                <td class="trans"><span class="El">89</span><br>Ac</td>
+                <td class="trans"><span class="El">104</span><br>Rf</td>
+                <td class="trans"><span class="El">105</span><br>Db</td>
+                <td class="trans"><span class="El">106</span><br>Sg</td>
+                <td class="trans"><span class="El">107</span><br>Bh</td>
+                <td class="trans"><span class="El">108</span><br>Hs</td>
+                <td class="trans"><span class="El">109</span><br>Mt</td>
+                <td class="trans"><span class="El">110</span><br>Ds</td>
+                <td class="trans"><span class="El">111</span><br>Rg</td>
+                <td class="trans"><span class="El">112</span><br>Cn</td>
+                <td class="iii"><span class="El">113</span><br>Nh</td>
+                <td class="iii"><span class="El">114</span><br>Fl</td>
+                <td class="iii"><span class="El">115</span><br>Mc</td>
+                <td class="iii"><span class="El">116</span><br>Lv</td>
+                <td class="vii"><span class="El">117</span><br>Tc</td>
+                <td class="viii"><span class="El">118</span><br>Og</td>
+                </tr>
+      </table>
+      <br>
+      <table class="TableB fs-5">
+        <tr>
+          <td colspan="10" class="NoBorder"></td>
+        </tr>
+        <tr>
+        <td class="f-group"><span class="El">58</span><br>Ce</td>
+        <td class="f-group"><span class="El">59</span><br>Pr</td>
+        <td class="f-group"><span class="El">60</span><br>Nd</td>
+        <td class="f-group"><span class="El">61</span><br>Pm</td>
+        <td class="f-group"><span class="El">62</span><br>Sm</td>
+        <td class="f-group"><span class="El">63</span><br>Eu</td>
+        <td class="f-group"><span class="El">64</span><br>Gd</td>
+        <td class="f-group"><span class="El">65</span><br>Tb</td>
+        <td class="f-group"><span class="El">66</span><br>Dy</td>
+        <td class="f-group"><span class="El">67</span><br>Ho</td>
+        <td class="f-group"><span class="El">68</span><br>Er</td>
+        <td class="f-group"><span class="El">69</span><br>Tm</td>
+        <td class="f-group"><span class="El">70</span><br>Yb</td>
+        <td class="f-group"><span class="El">71</span><br>Lu</td>
+        </tr>
+        <tr>
+        <td class="f-group1"><span class="El">72</span><br>Ce</td>
+        <td class="f-group1"><span class="El">91</span><br>Pr</td>
+        <td class="f-group1"><span class="El">92</span><br>Nd</td>
+        <td class="f-group1"><span class="El">93</span><br>Pm</td>
+        <td class="f-group1"><span class="El">94</span><br>Sm</td>
+        <td class="f-group1"><span class="El">95</span><br>Am</td>
+        <td class="f-group1"><span class="El">96</span><br>Gd</td>
+        <td class="f-group1"><span class="El">97</span><br>Tb</td>
+        <td class="f-group1"><span class="El">98</span><br>Dy</td>
+        <td class="f-group1"><span class="El">99</span><br>Ho</td>
+        <td class="f-group1"><span class="El">100</span><br>Er</td>
+        <td class="f-group1"><span class="El">101</span><br>Tm</td>
+        <td class="f-group1"><span class="El">102</span><br>Yb</td>
+        <td class="f-group1"><span class="El">103</span><br>Lu</td>
+        </tr>
+      </table>
+      </div>  
+      
+
+      <script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
+      <!-- <script src="./js/main.js"></script> -->
+</body>
+</html>

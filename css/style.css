@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+table{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.TableB{
+    margin-left: 2rem;
+}
+
+td{
+    position: relative;
+   width: 5vw;
+   border:  1px solid rgb(0, 0, 0);
+   text-align: center;
+   font-weight: bold;
+   border-radius: 5px; 
+   padding: 1.1rem;
+}
+.NoBorder {
+    border: none;
+}
+.El{
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+.hy{
+    border: solid rgb(114, 173, 241) 3px;
+    color: rgb(114, 173, 241);
+    cursor: pointer;
+}
+.hy:hover{
+    opacity: 1;
+    background: rgb(114, 173, 241);
+    color: white;
+}
+.i{
+    border: solid rgb(243, 75, 103) 3px;
+    color: rgb(243, 75, 103) ;
+    cursor: pointer;
+}
+.i:hover{
+    opacity: 1;
+    background: rgb(243, 75, 103) ;
+    color: white;
+}
+.ii{
+    border: solid rgb(247, 186, 94) 3px;
+    color: rgb(247, 186, 94) ;
+    cursor: pointer;
+}
+.ii:hover{
+    background: rgb(247, 186, 94);
+    color: white ;
+}
+.trans{
+    border: solid rgb(46, 241, 134) 3px;
+    color: rgb(46, 241, 134) ;
+    cursor: pointer;
+}
+.trans:hover{
+    background: rgb(46, 241, 134);
+    color: white ;
+}
+.Semi-metal{
+    border: solid rgb(153, 214, 238) 3px;
+    color: rgb(153, 214, 238) ;
+    cursor: pointer;
+}
+.Semi-metal:hover{
+    background: rgb(153, 214, 238);
+    color: white ;
+}
+.iii{
+    border: solid rgb(29, 167, 29) 3px;
+    color: rgb(29, 167, 29) ;
+    cursor: pointer;
+}
+.iii:hover{
+    background: rgb(29, 167, 29);
+    color: white ;
+}
+.no-metal {
+    border: solid rgb(46, 75, 238) 3px;
+    color: rgb(46, 75, 238)  ;
+    cursor: pointer;
+}
+.no-metal:hover {
+    background:rgb(46, 75, 238);
+    color: white ;
+
+}
+.vii {
+    border: solid rgb(214, 89, 214) 3px;
+    color: rgb(214, 89, 214)  ;
+    cursor: pointer;
+}
+.vii:hover {
+    background: rgb(214, 89, 214);
+    color: white  ;
+}
+.viii {
+    border: solid rgb(131, 25, 218) 3px;
+    color: rgb(131, 25, 218);
+    cursor: pointer;
+}
+.viii:hover {
+    background: rgb(131, 25, 218);
+    color: white;
+}
+.f-group {
+    border: solid rgb(79, 224, 243) 3px;
+    color: rgb(79, 224, 243);
+    cursor: pointer;
+}
+.f-group:hover {
+    background: rgb(79, 224, 243);
+    color: white;
+}
+.f-group1 {
+    border: solid rgb(24, 209, 255) 3px;
+    color: rgb(79, 224, 243);
+    cursor: pointer;
+}
+.f-group1:hover {
+    background: rgb(24, 209, 255);
+    color: white;   
+}

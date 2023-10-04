@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Hydrogen",
+      "electrons": 1,
+      "phase": "Gas"
+    },
+    {
+        "name": "Helum",
+        "electrons": 2,
+        "phase": "Gas"
+    },
+    {
+        "name": "Lithium",
+        "electrons": 3,
+        "phase": "Solid"
+    }
+]
